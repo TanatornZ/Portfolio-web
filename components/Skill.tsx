@@ -5,7 +5,7 @@ import { RiFlutterFill } from "react-icons/ri";
 import atom from '../public/icons/atom.png';
 function Skill() {
   return (
-    <div>
+    <div id='skill'>
       <div className="py-16 md:py-24 px-10 md:px-0  mx-auto  md:max-w-3xl ">
         <h1 className="text-center text-4xl font-semibold pb-12">Skill</h1>
 

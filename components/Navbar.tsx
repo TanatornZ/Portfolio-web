@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="w-full h-16 bg-slate-500 shadow-xl p-5 px-10 flex justify-between items-center">
+      <div className="w-full h-16 bg-slate-500 shadow-xl p-5 px-10 flex justify-between items-center fixed z-10">
         <div className="text-xl font-bold uppercase text-white">
           <h1>Tanatorn</h1>
         </div>
@@ -33,24 +33,32 @@ const Navbar = () => {
 
         <ul className="w-full text-center hidden md:flex justify-end">
           <li className="py-1 px-5">
-            <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
-              HOME
-            </button>
+            <a href="#home">
+              <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
+                HOME
+              </button>
+            </a>
           </li>
           <li className="py-1 px-5">
-            <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
-              ABOUT
-            </button>
+            <a href="#about">
+              <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
+                ABOUT
+              </button>
+            </a>
           </li>
           <li className="py-1 px-5">
-            <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
-              SKILL
-            </button>
+            <a href="#skill">
+              <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
+                SKILL
+              </button>
+            </a>
           </li>
           <li className="py-1 px-5">
-            <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
-              PROJECT
-            </button>
+            <a href="#project">
+              <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
+                PROJECT
+              </button>
+            </a>
           </li>
         </ul>
       </div>
@@ -58,7 +66,7 @@ const Navbar = () => {
       <div
         className={` ${
           showNavbar ? `h-56  ` : `h-0`
-        } absolute z-10 w-full overflow-hidden md:hidden grow bg-slate-600 flex flex-col items-center transition-all duration-200`}
+        } absolute z-20 w-full overflow-hidden md:hidden grow bg-slate-600 flex flex-col items-center transition-all duration-200`}
       >
         <ul className="w-full text-center">
           <li className="py-1 px-5">

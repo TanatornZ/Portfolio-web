@@ -3,6 +3,7 @@ import Image from "next/image";
 import AboutMe from "../components/AboutMe";
 import HomeProfile from "../components/HomeProfile";
 import Navbar from "../components/Navbar";
+import Project from "../components/project";
 import Skill from "../components/Skill";
 
 const Home: NextPage = () => {
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
       <HomeProfile />
       <AboutMe />
       <Skill />
+      <Project />
     </div>
   );
 };
