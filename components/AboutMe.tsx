@@ -4,8 +4,8 @@ import profile2 from "../public/profile2.jpg";
 function AboutMe() {
   return (
     <div className="">
-        <div className="py-16 md:py-24 px-14 mx-auto max-w-5xl ">
-          <h1 className="text-center text-4xl font-semibold">About Me</h1>
+        <div className="py-16 md:py-24  mx-auto max-w-3xl ">
+          <h1 className="text-center text-4xl font-semibold mb-8">About Me</h1>
           <div className="flex flex-col md:flex-row justify-center md:justify-between items-center pt-12 md:pt-16 ">
             <div className="relative rounded-xl w-[18em] h-[24em] shadow-xl grow">
               <Image

@@ -9,7 +9,7 @@ import Image from "next/image";
 function HomeProfile() {
   return (
     <div className="">
-      <div className="flex  flex-col md:flex-row justify-center items-center py-16 md:py-24">
+      <div className="flex  flex-col md:flex-row justify-center items-center py-24 md:py-32">
         <div className="">
           <div className="w-[18em] h-[18em] rounded-full shadow-2xl  relative">
             <Image
