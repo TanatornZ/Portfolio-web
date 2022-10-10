@@ -15,6 +15,7 @@ function HomeProfile() {
               <Image
                 priority
                 src={profile}
+                quality={50}
                 layout="fill"
                 alt="Profile"
                 objectFit="cover"

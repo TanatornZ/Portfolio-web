@@ -13,6 +13,7 @@ function AboutMe() {
                 <Image
                   priority
                   src={profile2}
+                  quality={50}
                   layout="fill"
                   objectFit="cover"
                   alt="profile2"

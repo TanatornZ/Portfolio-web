@@ -17,6 +17,7 @@ function Skill() {
               <div className="w-48 h-16 relative ">
                 <Image
                   src={atom}
+                  quality={30}
                   layout="fill"
                   alt="react"
                   objectFit="contain"
@@ -27,6 +28,7 @@ function Skill() {
             <div className="p-10 rounded-lg flex justify-center items-center shadow-lg hover:scale-110 transition-all    bg-white">
               <div className="w-48 h-16 relative">
                 <Image
+                  quality={30}
                   src="/icons/typescript.png"
                   layout="fill"
                   alt="react"
@@ -38,6 +40,7 @@ function Skill() {
             <div className="p-10 rounded-lg flex justify-center items-center shadow-lg hover:scale-110 transition-all    bg-white">
               <div className="w-48 h-16 relative">
                 <Image
+                  quality={30}
                   src="/icons/javascript.png"
                   layout="fill"
                   alt="react"
@@ -49,6 +52,7 @@ function Skill() {
             <div className="p-10 rounded-lg flex justify-center items-center shadow-lg hover:scale-110 transition-all    bg-white">
               <div className="w-48 h-16 relative">
                 <Image
+                  quality={30}
                   src="/icons/tailwind.png"
                   layout="fill"
                   alt="react"
@@ -60,6 +64,7 @@ function Skill() {
             <div className="p-10 rounded-lg flex justify-center items-center shadow-lg hover:scale-110 transition-all    bg-white">
               <div className="w-48 h-16 relative">
                 <Image
+                  quality={30}
                   src="/redux.svg"
                   layout="fill"
                   alt="react"
@@ -71,6 +76,7 @@ function Skill() {
             <div className="p-10 rounded-lg flex justify-center items-center shadow-lg hover:scale-110 transition-all    bg-white">
               <div className="w-48 h-16 relative">
                 <Image
+                  quality={30}
                   src="/icons/flutter.png"
                   layout="fill"
                   alt="react"
@@ -82,6 +88,7 @@ function Skill() {
             <div className="p-10 rounded-lg flex justify-center items-center shadow-lg hover:scale-110 transition-all    bg-white">
               <div className="w-48 h-16 relative">
                 <Image
+                  quality={30}
                   src="/icons/firebase.png"
                   layout="fill"
                   alt="react"
@@ -93,6 +100,7 @@ function Skill() {
             <div className="p-10 rounded-lg flex justify-center items-center shadow-lg hover:scale-110 transition-all    bg-white">
               <div className="w-48 h-16 relative">
                 <Image
+                  quality={30}
                   src="/icons/github.png"
                   layout="fill"
                   alt="react"

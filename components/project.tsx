@@ -15,6 +15,7 @@ function Project() {
             <div className="p-2 bg-white rounded-lg shadow-lg">
               <div className="relative w-full h-48 rounded-lg">
                 <Image
+                  quality={30}
                   src={"/projects/calculator.png"}
                   layout="fill"
                   objectFit="cover"
@@ -38,6 +39,7 @@ function Project() {
             <div className="p-2 bg-white rounded-lg shadow-lg">
               <div className="relative w-full h-48 rounded-lg ">
                 <Image
+                  quality={30}
                   src={"/projects/nft.png"}
                   layout="fill"
                   objectFit="cover"
@@ -45,7 +47,9 @@ function Project() {
                   alt="NFT"
                 />
               </div>
-              <p className="py-3 text-center text-xl font-medium">NFT Clone UI</p>
+              <p className="py-3 text-center text-xl font-medium">
+                NFT Clone UI
+              </p>
               <a
                 href="https://jocular-puffpuff-27b244.netlify.app/"
                 target={"_blank"}
