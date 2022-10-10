@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="w-full h-16 bg-slate-500 shadow-xl p-5 px-10 flex justify-between items-center fixed z-10">
-        <div className="text-xl font-bold uppercase text-white">
+      <div className="w-full h-16 bg-black shadow-xl p-5 px-10 flex justify-between items-center fixed z-10">
+        <div className="text-xl font-semibold uppercase text-white">
           <h1>Tanatorn</h1>
         </div>
         <div
@@ -34,7 +34,7 @@ const Navbar = () => {
         <ul className="w-full text-center hidden md:flex justify-end">
           <li className="py-1 px-5">
             <a href="#home">
-              <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
+              <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black transition-all text-white font-bold">
                 HOME
               </button>
             </a>
@@ -65,29 +65,37 @@ const Navbar = () => {
 
       <div
         className={` ${
-          showNavbar ? `h-56  ` : `h-0`
-        } absolute z-20 w-full overflow-hidden md:hidden grow bg-slate-600 flex flex-col items-center transition-all duration-200`}
+          showNavbar ? `h-64  ` : `h-0`
+        } absolute z-20 w-full mt-16 overflow-hidden md:hidden grow bg-black flex flex-col items-center transition-all duration-200`}
       >
         <ul className="w-full text-center">
           <li className="py-1 px-5">
-            <button className="py-3 rounded-xl hover:bg-white w-full  hover:text-black text-white font-bold">
-              HOME
-            </button>
+            <a href="#home">
+              <button className="py-3 rounded-xl hover:bg-white w-full  hover:text-black text-white font-bold">
+                HOME
+              </button>
+            </a>
           </li>
           <li className="py-1 px-5">
-            <button className="py-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
-              ABOUT
-            </button>
+            <a href="#about">
+              <button className="py-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
+                ABOUT
+              </button>
+            </a>
           </li>
           <li className="py-1 px-5">
-            <button className="py-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
-              SKILL
-            </button>
+            <a href="#skill">
+              <button className="py-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
+                SKILL
+              </button>
+            </a>
           </li>
           <li className="py-1 px-5">
-            <button className="py-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
-              PROJECT
-            </button>
+            <a href="#project">
+              <button className="py-3 rounded-xl hover:bg-white w-full hover:text-black text-white font-bold">
+                PROJECT
+              </button>
+            </a>
           </li>
         </ul>
       </div>
