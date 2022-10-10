@@ -11,6 +11,7 @@ function AboutMe() {
             <Slide direction="left" duration={700}>
               <div className="relative rounded-xl w-[18em] h-[24em] shadow-xl grow">
                 <Image
+                  priority
                   src={profile2}
                   layout="fill"
                   objectFit="cover"

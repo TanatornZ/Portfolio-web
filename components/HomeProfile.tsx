@@ -13,6 +13,7 @@ function HomeProfile() {
           <div className="">
             <div className="w-[18em] h-[18em] rounded-full shadow-2xl  relative">
               <Image
+                priority
                 src={profile}
                 layout="fill"
                 alt="Profile"
