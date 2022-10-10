@@ -20,7 +20,7 @@ function AboutMe() {
               </div>
             </Slide>
             <Slide direction="right" duration={700}>
-              <div className="mt-12 w-[18em] md:mt-0 md:ml-14">
+              <div className="mt-12 w-[18em] md:w-[22em] md:mt-0 md:ml-14">
                 <h1 className="text-3xl text-center font-semibold">My name is Tanatorn</h1>
                 <h3 className="text-xl mt-3 font-medium text-center" >Front-end Developer</h3>
                 <p className="text-lg mt-3">
