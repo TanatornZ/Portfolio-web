@@ -9,7 +9,7 @@ function HomeProfile() {
   return (
     <div className="pt-16 bg-home bg-center bg-cover  " id='home'>
       <div className="flex  flex-col md:flex-row justify-center items-center py-24 md:py-32  ">
-        <Fade delay={10}>
+        
           <div className="">
             <div className="w-[18em] h-[18em] rounded-full shadow-2xl  relative">
               <Image
@@ -52,7 +52,7 @@ function HomeProfile() {
               </a>
             </div>
           </div>
-        </Fade>
+        
       </div>
     </div>
   );
