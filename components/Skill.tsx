@@ -73,7 +73,7 @@ function Skill() {
               <div className="w-48 h-16 relative">
                 <Image
                   quality={10}
-                  src={redux}
+                  src='/redux.svg'
                   layout="fill"
                   alt="react"
                   objectFit="contain"
