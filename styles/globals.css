@@ -12,6 +12,20 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 0.5em;               /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(211, 210, 210);        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(71, 85, 101);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+
 @media (max-width: 900px) {
   html {
     font-size: 15px;
