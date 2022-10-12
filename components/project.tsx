@@ -17,7 +17,8 @@ function Project() {
             <div className="p-2 bg-white rounded-lg shadow-lg">
               <div className="relative w-full h-48 rounded-lg">
                 <Image
-                  quality={30}
+                  priority
+                  quality={20}
                   src={"/projects/calculator.png"}
                   layout="fill"
                   objectFit="cover"
@@ -41,6 +42,7 @@ function Project() {
             <div className="p-2 bg-white rounded-lg shadow-lg">
               <div className="relative w-full h-48 rounded-lg ">
                 <Image
+                  priority
                   quality={30}
                   src={"/projects/nft.png"}
                   layout="fill"
