@@ -2,11 +2,15 @@ import Image from "next/image";
 import React from "react";
 import { Slide } from "react-awesome-reveal";
 import profile2 from "../public/profile2.jpg";
+import {FaUserAlt} from 'react-icons/fa'
 function AboutMe() {
   return (
     <div className="" id="about">
       <div className="py-16 md:py-24  mx-auto  max-w-3xl ">
-        <h1 className="text-center text-4xl font-semibold mb-8">About Me</h1>
+        <div className="flex justify-center items-center mb-8"> 
+          <FaUserAlt className="text-4xl"/>
+          <h1 className="text-center text-4xl font-semibold ml-3">About Me</h1>
+        </div>
         <div className="flex flex-col md:flex-row justify-center md:justify-between items-center pt-12 md:pt-16 ">
           <Slide direction="left" duration={700}>
             <div className="relative rounded-xl w-[18em] h-[24em] shadow-xl grow">
@@ -22,7 +26,7 @@ function AboutMe() {
             </div>
           </Slide>
           <Slide direction="right" duration={700}>
-            <div className="mt-12 w-[18em] md:w-[20.5em] lg:w-[24em] md:mt-0 md:ml-14">
+            <div className="mt-12 w-[18em] md:w-[21em] lg:w-[24em] md:mt-0 md:ml-14">
               <h1 className="text-3xl text-center font-semibold">
                 My name is Tanatorn
               </h1>

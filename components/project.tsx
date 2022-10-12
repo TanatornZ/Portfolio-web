@@ -1,21 +1,24 @@
 import Image from "next/image";
 import React from "react";
 import { Flip, JackInTheBox, Zoom } from "react-awesome-reveal";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
 function Project() {
   return (
     <div id="project" className="bg-gradient-to-r from-slate-400 to-zinc-400">
       <div className="py-16 md:py-24 px-10 md:px-0  mx-auto  md:max-w-3xl ">
-        <h1 className="text-center text-4xl font-semibold pb-12 text-white">
-          Project
-        </h1>
+        <div className="flex justify-center items-center pb-12">
+          <AiOutlineFundProjectionScreen className="text-5xl" />
+          <h1 className="text-center text-4xl font-semibold ml-3">Project</h1>
+        </div>
 
         <Zoom>
           <div className=" bg-slate-600 shadow-xl mt-12 rounded-lg p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="p-2 bg-white rounded-lg shadow-lg">
               <div className="relative w-full h-48 rounded-lg">
                 <Image
-                  quality={30}
+                  priority
+                  quality={20}
                   src={"/projects/calculator.png"}
                   layout="fill"
                   objectFit="cover"
@@ -39,6 +42,7 @@ function Project() {
             <div className="p-2 bg-white rounded-lg shadow-lg">
               <div className="relative w-full h-48 rounded-lg ">
                 <Image
+                  priority
                   quality={30}
                   src={"/projects/nft.png"}
                   layout="fill"

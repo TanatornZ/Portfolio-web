@@ -2,6 +2,7 @@ import { NextPage } from "next";
 import React, { useState } from "react";
 import { CgMenuLeftAlt } from "react-icons/cg";
 import { BiChevronUp } from "react-icons/bi";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState<boolean>(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="w-full h-16 bg-black shadow-xl p-5 px-10 flex justify-between items-center fixed z-10">
+      <div className="w-full h-16 bg-black shadow-xl p-5 px-12 lg:px-24 flex justify-between items-center fixed z-10">
         <div className="text-xl font-semibold uppercase text-white">
           <h1>Tanatorn</h1>
         </div>
@@ -33,11 +34,21 @@ const Navbar = () => {
 
         <ul className="w-full text-center hidden md:flex justify-end">
           <li className="py-1 px-5">
+            {/* <Link
+              spy={true}
+              to={"home"}
+              activeClass=""
+                
+              smooth={true}
+              duration={500}
+              offset={-50}
+            > */}
             <a href="#home">
               <button className="p-3 rounded-xl hover:bg-white w-full hover:text-black transition-all text-white font-bold">
                 HOME
               </button>
             </a>
+            {/* </Link> */}
           </li>
           <li className="py-1 px-5">
             <a href="#about">
