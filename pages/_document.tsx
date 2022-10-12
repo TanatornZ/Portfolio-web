@@ -4,9 +4,9 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta property="og:title" content="My page title" key="title" />
+        <meta property="og:title" content="Portfolio | Tanatorn" key="title" />
       </Head>
-      <title>Tanatorn</title>
+
       <body>
         <Main />
         <NextScript />
