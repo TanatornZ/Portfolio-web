@@ -23,8 +23,8 @@ function HomeProfile() {
             </div>
           </div>
           <div className="mt-12 md:mt-0 md:ml-24">
-            <h1 className="text-5xl font-semibold">Hello </h1>
-            <h2 className="text-3xl mt-3 font-medium">
+            <h1 className="text-5xl font-semibold">Hi There ,</h1>
+            <h2 className="text-3xl mt-5 font-medium">
               I&apos;m Tanatorn Intaphong
             </h2>
             <div className="w-full  border mt-3"></div>
