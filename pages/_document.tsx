@@ -6,7 +6,6 @@ export default function Document() {
       <Head>
         <meta property="og:title" content="Portfolio | Tanatorn" key="title" />
       </Head>
-
       <body>
         <Main />
         <NextScript />

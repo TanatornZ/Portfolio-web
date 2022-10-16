@@ -37,7 +37,7 @@ function AboutMe() {
                 I like to clone websites and practice my coding skills and soft
                 skills to make myself better.
               </p>
-              <p className='text-lg'>In the future, I want to be a softwar engineer .</p>
+              <p className='text-lg'>In the future, I want to be a software engineer .</p>
               <div className="flex justify-between text-lg mt-3">
                 <p>Age:20</p>
                 <p>Email: bank250145.bb@gmail.com</p>
